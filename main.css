@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    
 }
 
 .container{
@@ -11,16 +12,34 @@
     background-position: center;
     height: 100vh;
     padding: 25px;
+    
 }
 
 .box{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
 }
+
+.button{
+    color: #fff;
+    background-color: #4777f4;
+    padding: 12px 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+
 
 .box ul li{
     display: inline;
     margin: 10px;
+    font-size: 14px;
 }
 .box ul li a{
 text-decoration: none;
@@ -34,14 +53,21 @@ color: black;
 .text{
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text h1{
     font-size: 28px;
     line-height: 35px;
+    text-transform: uppercase;
+    color: #333333;
 }
 
 .text p{
     font-family: 5px;
-}
+    font-size: 17px;
+   margin-bottom: 30px;
+    
+}  
